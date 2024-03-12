@@ -1,5 +1,5 @@
 const { warmStrategyCache } = require('workbox-recipes');
-const { CacheFirst, StategyCacheFirst } = require('workbox-strategies');
+const { CacheFirst, StrategyCacheFirst } = require('workbox-strategies');
 const { registerRoute } = require('workbox-routing');
 const { CacheableResponsePlugin } = require('workbox-cacheable-response');
 const { ExpirationPlugin } = require('workbox-expiration');
